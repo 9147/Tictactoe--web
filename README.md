@@ -1,2 +1,7 @@
 # Tictactoe--web
-A web tictaktoe game
+A web tictactoe game developed using html,javascript and css, was an individual project and first attempt to understand working of a sinple web application.
+Disclaimer:
+  The application code contains too many bugs since it was at a stage where the author was quite new.
+  
+~~ initial-code-March 2019
+~~ latest- version - April 2019
