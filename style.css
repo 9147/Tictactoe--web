@@ -1,0 +1,90 @@
+table {
+    position:fixed;
+    height:300px; 
+    width:300px;
+    z-index:1;
+    background:#ffffff;
+ }
+ .circle{
+   position:relative ;
+   width: 50px; 
+   height: 50px; 
+   border-radius: 25px; 
+   left:10px
+ }
+ #bu1{
+  position:relative;
+  top:300px;
+  left:30px;
+  width:60px;
+  height:40px;
+  border-radius:15px;
+  background-color:#ff00ff;
+ }
+ #bu2{
+  position:relative;
+  top:260px;
+  left:130px;
+  width:60px;
+  height:40px;
+  border-radius:15px;
+  background-color:#ff00ff;   
+ }
+ #bu3{
+  position:relative;
+  top:220px;
+  left:230px;
+  width:60px;
+  height:40px;
+  border-radius:15px;
+  background-color:#ff00ff;   
+ }
+ .moo{
+  position:fixed;
+  top:200px;
+  left:40px;
+  width:300px;
+  height:200px;
+  background:#000000;
+  z-index:29;
+  border-radius:10px;
+  font-size:25px;
+  text-align:center;
+  color:#00ffff;
+ }
+ body{
+     background:#00f0f0;
+ }
+ .but{
+  position:fixed;
+  top:360px;
+  left:150px;
+  width:50px;
+  height:30px;
+  border-radius:15px;
+  background-color:#ff00ff;
+  font-size:15px; 
+ }
+ .tab{
+  position:fixed;
+  top:230px;
+  height:130px;
+ }
+ .team{
+   position:relative ;
+   width: 30px; 
+   height: 30px; 
+   border-radius: 20px; 
+   background:#000000;
+   font-size:10px;
+ }
+ .hell{
+  z-index:4;
+  position:fixed;
+  font-size:25px;
+  top:100px;
+  left:50px;
+  background:#ff0000;
+  color:#ffff00;
+ }
+ 
