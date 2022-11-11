@@ -1,14 +1,15 @@
 var vote=0;
 var rule_1=0;
+var flag001=0;
 co="o"
 current_player=true;
 window.onload=hello();
 function hello(){
     bn = document.createElement("div");
-    bn.innerHTML="Choose a color";
+    bn.innerHTML="Choose a color<br/>";
     bn.classList.add("moo");
     se= document.getElementById("mo");
-     se.appendChild(bn);
+    se.appendChild(bn);
     bn_but1=document.createElement("button");
     bn_but1.innerHTML="Done";
     bn_tab=document.createElement("table");
@@ -54,6 +55,8 @@ function hello(){
      }
      else{
         call();
+        flag001=1;
+        console.log("flag001= ",flag001);
         se.removeChild(bn)
     }}
     bn_td1.onclick=function(){
@@ -246,6 +249,10 @@ pea=cee.getAttribute('id');
      } return true;
 }
 function col(ca){
+  console.log(flag001);
+ if(flag001==0){
+  return;
+ }
  cant=could(ca);
  if(cant===true){
    seen=0;
@@ -305,17 +312,7 @@ function col(ca){
    }}
   
 function manoj() {
-    if(com.length >0){
-    
-   for (var va of com){
-    var mee=document.getElementById(va);
-    mee.style.background="#ffffff";
-    vaa--;
-    }
-    rule_1=0;
-    com.splice(0,com.length);
-   }
-   hello();
+    location.replace("main.html");
    }
 function mano(){
 if(current_player) {
@@ -338,7 +335,7 @@ if(current_player) {
 
 function man(){
     if(confirm("Do u want to quite")){
-        manoj();
+        window.close();
         
     }
 }
