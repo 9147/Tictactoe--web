@@ -1,5 +1,5 @@
 # Tictactoe-web
-A web tictactoe game developed using html,javascript and css, was an individual project and first attempt to understand working of a sinple web application.
+A web tictactoe game developed using html,javascript and css, was an individual project and first attempt to understand working of a simple web application.
 Disclaimer:
   The application code contains too many bugs since it was at a stage where the author was quite new.
 
