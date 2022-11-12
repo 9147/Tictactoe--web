@@ -125,58 +125,13 @@ var meen=5;
 var com=[];
 function call(){
 m_vote=vote;
-var a="orange";
-var b="brown";
-var c="yellow";
-var d="blue";
-var e="green";
-var f="red";
-switch (m_vote){
- case 1: 
-  player_co=a;
-  break;
- case 2:
-  player_co=b;
-  break;
- case 3:
-  player_co=c;
-  break;
- case 4:
-  player_co=d;
-  break;
- case 5:
-  player_co=e;
-  break;
- case 6:
-  player_co=f;
-  break;
-
-}
+var color_choice=["orange","brown","yellow","blue","green","red"]
+player_co=color_choice[vote-1];
  let va_1=Math.ceil(Math.random()*6);
  while (va_1===m_vote) {
    va_1=Math.ceil(Math.random()*6);  
  }
- switch (va_1){
- case 1: 
-  playe_co=a;
-  break;
- case 2:
-  playe_co=b;
-  break;
- case 3:
-  playe_co=c;
-  break;
- case 4:
-  playe_co=d;
-  break;
- case 5:
-  playe_co=e;
-  break;
- case 6:
-  playe_co=f;
-  break;
-
-}
+ playe_co=color_choice[va_1-1];
 cet=0
 rule_win=[
 ["c","c1","c2"],
