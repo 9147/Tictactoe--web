@@ -1,6 +1,7 @@
 var vote=0;
 var rule_1=0;
 var flag001=0;
+var mad=["c","c1","c2","c3","c4","c5","c6","c7","c8"]
 co="o"
 current_player=true;
 window.onload=hello();
@@ -205,10 +206,9 @@ pea=cee.getAttribute('id');
 }
 function col(ca){
   console.log(flag001);
- if(flag001==0){
-  return;
- }
+ 
  cant=could(ca);
+ console.log(cant);
  if(cant===true){
    seen=0;
    var l_1
@@ -302,7 +302,6 @@ function stop(de){
     conlsole.log("u are a fool")
  } 
 }
-mad=["c","c1","c2","c3","c4","c5","c6","c7","c8"]
 function check_win(laa,se,me,t){
  var meep
  var deep
@@ -353,12 +352,13 @@ fool_3=[];
 function b_2(sta_r){
 if(current_player){
 var ran_1=Math.ceil(Math.random()*12)-1;
-console.log(ran_1);
+console.log("rand= ",ran_1);
 console.log(co)
-if(dec_ch(sta_r)&& met===2){
-
+if(dec_ch(sta_r)){
 if (ran_1<9){
-   document.getElementById(mad[ran_1]).click()
+  console.log("doing");
+  console.log(mad);
+    document.getElementById("c").click();
 }
 if (ran_1>=9){
     document.getElementById(mad[4]).click()
