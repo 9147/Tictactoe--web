@@ -206,7 +206,6 @@ pea=cee.getAttribute('id');
 }
 function col(ca){
   console.log(flag001);
- 
  cant=could(ca);
  console.log(cant);
  if(cant===true){
@@ -291,7 +290,7 @@ if(current_player) {
 function man(){
     if(confirm("Do u want to quite")){
         window.close();
-        
+        location.replace("https://9147.github.io/Tictactoe_web/");
     }
 }
 function funn(a){

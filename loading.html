@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Loading...</title>
+    <style>
+        body{
+            background-color: #6e24b8;
+        }
+        div {
+         position: fixed;
+         top:calc(50vh);
+         left:calc(50vw - 1.5vmin);
+         font-size:3vmin;
+         color:white;
+        }
+    </style>
+</head>
+<body>
+    <div Id="mo" >Loading</div>
+    <script>
+        var a=document.getElementById("mo");
+        var i=0,j=0;
+        setInterval(()=>{
+            if(j==60)
+            {
+                location.replace("main.html");
+            }
+            if(i==10){
+                a.innerHTML = "Loading";
+                i=0;
+                
+            }
+            j++;
+        a.innerHTML = a.innerHTML+"."
+        i++;
+        },100);
+    </script>
+</body>
+</html>
