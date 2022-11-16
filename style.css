@@ -1,5 +1,6 @@
 table {
     position:fixed;
+    border-color:blue;
     top:calc((100vh - 50vmin)/2);
     left:calc((100vw - 50vmin)/2);
     height:50vmin; 
