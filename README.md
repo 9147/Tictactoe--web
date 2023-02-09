@@ -4,6 +4,5 @@ Disclaimer:
   The application code contains too many bugs since it was developed at a stage where the author was quite new.
 
 U can try it yourself: [Click me](loading.html)
-<button>hello</button>
 ~~ initial-code-March 2019 <br/>
 ~~ latest- version - April 2019
